@@ -7,6 +7,15 @@ image: assets/BranchedBunny.png
 sidebar: ddg
 ---
 
+
+These notes are based on the [CMU 15-458 Discrete Differential Geometry](https://brickisland.net/ddg-web/) course by [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/).
+
 # Overview
 
 {{< video https://www.youtube.com/watch?v=mas-PUA3OvA&list=PL9_jI1bdZmz0hIrNCMQW1YmZysAiIYSSS&index=1 >}}
+
+## Contents
+
+### Journal (chronological)
+
+- [Lecture 1: Overview](journal/lec01-intro.qmd)
