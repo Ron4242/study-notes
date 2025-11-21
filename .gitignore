@@ -1,0 +1,13 @@
+# Quarto
+/.quarto/
+/_site/
+**/*.quarto_ipynb
+/docs/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+

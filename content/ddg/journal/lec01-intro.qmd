@@ -1,0 +1,7 @@
+---
+title: "Lecture 1: Overview"
+description: "Introductory overview on the scope and domain of discrete differential geometry."
+categories: ["Math", "Geometry", "CS"]
+date-modified: last-modified
+sidebar: ddg
+---

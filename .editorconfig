@@ -1,0 +1,29 @@
+root = true
+
+# Files
+[*.{qmd,md}]
+charset = utf-8
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
+max_line_length = off  # math lines often exceed width; do not wrap
+
+# YAML
+[*.yml]
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+
+# BibTeX bibliography
+[*.bib]
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+
+[*.py]
+charset = utf-8
+indent_style = space
+indent_size = 4
+insert_final_newline = true
+trim_trailing_whitespace = true

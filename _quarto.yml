@@ -1,0 +1,65 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Ron's Study Notes"
+  site-url: "https://Ron4242.github.io/study-notes"
+  repo-url: "https://github.com/Ron4242/study-notes"
+  repo-actions: [source, issue]
+  reader-mode: true
+
+  navbar:
+    left:
+      - text: "Discrete Differential Geometry"
+        href: content/ddg/index.qmd
+
+  sidebar:
+    - id: "ddg"
+      title: "Discrete Differential Geometry"
+      contents:
+        - content/ddg/index.qmd
+        - section: "Journal"
+          contents:
+            - content/ddg/journal/lec01-intro.qmd
+
+  page-footer: 
+    left: "Copyright 2025, Ronald Lee"
+    right: "Built with Quarto."
+
+  search: true
+
+execute:
+  freeze: auto
+  cache: true
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-location: right
+    code-fold: true
+    html-math-method: mathjax
+    include-in-header:
+      - text: |
+            <script>
+            window.MathJax = {
+              tex: {
+                macros: {
+                  R: "\\mathbb{R}",
+                  C: "\\mathbb{C}",
+                  d: "\\mathrm{d}",
+                  star: "\\star",
+                  wedge: "\\wedge",
+                  laplace: "\\Delta",
+                  grad: "\\nabla",
+                  inner: ["\\langle #1, #2 \\rangle", 2],
+                  M: "\\mathcal{M}",
+                  V: "\\mathcal{V}",
+                  E: "\\mathcal{E}",
+                  F: "\\mathcal{F}",
+                  intM: "\\int_\\mathcal{M}"
+                }
+              }
+            };
+            </script>

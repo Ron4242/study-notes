@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "streetsidesoftware.code-spell-checker",
+        "ms-python.python",
+        "quarto.quarto",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter"
+    ]
+}

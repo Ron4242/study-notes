@@ -1,0 +1,12 @@
+---
+title: "Discrete Differential Geometry"
+description: "Notes on CMU 15-458 covering exterior calculus and discrete operators."
+date-modified: last-modified
+categories: ["Math", "Geometry", "CS"]
+image: assets/BranchedBunny.png
+sidebar: ddg
+---
+
+# Overview
+
+{{< video https://www.youtube.com/watch?v=mas-PUA3OvA&list=PL9_jI1bdZmz0hIrNCMQW1YmZysAiIYSSS&index=1 >}}

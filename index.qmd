@@ -1,0 +1,30 @@
+---
+title: "Ron's Study Notes"
+subtitle: "A monolithic repo of everything I'm learning."
+listing:
+  - id: domains
+    contents: content/*/index.qmd
+    type: grid
+    fields: [image, title, description, categories]
+    sort: "title"
+    grid-item-border: true
+
+  - id: latest-notes
+    contents: content/**/*.qmd
+    type: table
+    fields: [date-modified, title]
+    sort: "date-modified desc"
+    max-items: 5
+    filter-ui: false
+    sort-ui: false
+---
+
+## Fields of Study
+
+::: {#domains}
+:::
+
+## Recently Updated Notes
+
+::: {#latest-notes}
+:::
